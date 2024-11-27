@@ -3,13 +3,13 @@ import React from 'react';
 import ImageCarousel from './ImageCarousel';
 
 const imagesForBeinecke = [
-  { src: 'path/to/beinecke1.jpg', alt: 'Beinecke Image 1', caption: 'Beinecke Library Interior' },
-  { src: 'path/to/beinecke2.jpg', alt: 'Beinecke Image 2', caption: 'Beinecke Library Exterior' },
+  { src: '/logo192.png', alt: 'Beinecke Image 1' },
+  { src: '/logo192.png', alt: 'Beinecke Image 2'},
   // Add more images...
 ];
 
 const SidebarBeinecke = () => {
-  const description = "First Encampment";
+  const description = "I was thinking we do a general coverage of the encampments written here";
 
   return (
     <ImageCarousel 

@@ -8,7 +8,7 @@ const Landing = () => {
         <div className='content'>
             <h1>We shall not be moved</h1>
             <p>some subheading about encampment archive</p>
-            <p>names/credit?</p>
+            <p>names if we want</p>
         </div> 
     </div>
   );

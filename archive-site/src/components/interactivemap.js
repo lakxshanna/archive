@@ -22,25 +22,25 @@ const InteractiveMap = () => {
     {
       name: "Beinecke Plaza",
       position: [41.3115, -72.9270],
-      description: "First Encampment",
+      description: "mini-desc",
       sidebarComponent: <SidebarBeinecke />,
     },
     {
       name: "Cross Campus",
       position: [41.3104, -72.9275],
-      description: "Second encampment site.",
+      description: "mini-desc",
       sidebarComponent: <SidebarBass />, // Use the corresponding sidebar component
     },
     {
-      name: "Humanities Quadrangle",
-      position: [41.3121, -72.9291],
-      description: "Previously known as the Hall of Graduate Studies, it now serves as a hub for humanities departments.",
+      name: "Initial Bookshelves",
+      position: [41.311474, -72.926415],
+      description: "mini-desc",
       sidebarComponent: <SidebarHQ />, // Add SidebarHumanities component
     },
     {
-      name: "College X Grove",
+      name: "College & Grove",
       position: [41.31158, -72.92558],
-      description: "Blocked Intersection following arrests",
+      description: "mini-desc",
       sidebarComponent: <SidebarGrove />, // Add SidebarCollegeX component
     },
   ];
@@ -78,7 +78,7 @@ const InteractiveMap = () => {
         {selectedLocation ? (
           <>
             <h3>{selectedLocation.name}</h3>
-            <p>{selectedLocation.description}</p>
+            {/* <p>{selectedLocation.description}</p> */}
             {/* Render the corresponding sidebar component */}
             {selectedLocation.sidebarComponent}
           </>

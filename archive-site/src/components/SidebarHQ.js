@@ -2,13 +2,13 @@ import React from 'react';
 import ImageCarousel from './ImageCarousel';
 
 const imagesForHQ = [
-  { src: 'path/to/humanities1.jpg', alt: 'Humanities Image 1', caption: 'Humanities Quadrangle View' },
-  { src: 'path/to/humanities2.jpg', alt: 'Humanities Image 2', caption: 'Interior of Humanities Quadrangle' },
+  { src:  '/logo192.png', alt: 'Humanities Image 1'},
+  { src:  '/logo192.png', alt: 'Humanities Image 2'},
   // Add more images...
 ];
 
 const SidebarHQ = () => {
-  const description = "Previously known as the Hall of Graduate Studies, it now serves as a hub for humanities departments.";
+  const description = "Here we can talk a little about the inital bookshelves that went up, planning behind them, how long they lasted, etc.";
 
   return (
     <ImageCarousel 
