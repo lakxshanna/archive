@@ -4,7 +4,7 @@ import './App.css';
 import InteractiveMap from './components/interactivemap';
 import Landing from './components/landing';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
