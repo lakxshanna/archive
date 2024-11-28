@@ -23,6 +23,7 @@ const Navigation = () => {
             <Nav.Link onClick={() => scrollToSection('map')}>Map</Nav.Link>
             <Nav.Link onClick={() => scrollToSection('music')}>Sounds of the encampment</Nav.Link>
             <Nav.Link onClick={() => scrollToSection('documentary')}>Documentary</Nav.Link>
+            <Nav.Link onClick={() => scrollToSection('gallery')}>Gallery</Nav.Link>
         </Nav>
         </Navbar.Collapse>
     </Container>
